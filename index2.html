@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Office </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrol.js"></script>
+    
+</head>
+<body>
+
+    <!-- window navbar -->
+    <div id="window" class="container-fluid">
+      <div class="row">
+        <div id="windowNav" class="col"> 
+                    <a id="brand2" class="navbar-brand mb-0 h1" href="#">Space</a>
+                    <i id="close" class="fas fa-times"></i>
+                  <ul id="windowList">
+                    <li class="nav-item active">
+                      <a id="home" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            pages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Action</a>
+                          <div class="btn-group dropright">
+                            <button id="buttright" type="button" class="btn btn-secondary">
+                              Split dropright
+                            </button>
+                            <button id="buttright" type="button" class="dropdown btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <span class="sr-only">Toggle Dropright</span>
+                            </button>
+                            <div class="dropdown-menu">
+                              <!-- Dropdown menu links -->
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Action</a>
+                            </div>
+                          </div>
+                          </div>
+                      </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        support
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                  </ul>
+        </div>
+      </div>
+    </div>
+    <!-- end -->
+
+    <div id="container" class="container-fluid">
+         
+        <nav id="navbar" class="navbar  navbar-dark sticky-top row">
+          <div class="col">
+              <a id="brand" class="navbar-brand mb-0 h1" href="#">Space</a>
+          </div>
+          <!-- ---- -->
+          <div  class="col-4" id="item" >
+            <ul class="nav ">
+              <li class="nav-item active">
+                <a id="home" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      pages
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Action</a>
+                    <div class="btn-group dropright">
+                      <button id="buttright" type="button" class="btn btn-secondary">
+                        Split dropright
+                      </button>
+                      <button id="buttright" type="button" class="dropdown btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only">Toggle Dropright</span>
+                      </button>
+                      <div class="dropdown-menu">
+                        <!-- Dropdown menu links -->
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Action</a>
+                      </div>
+                    </div>
+                    </div>
+                </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  support
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+            </div>
+
+            <!-- form -->
+         
+          <div id="forms"  class="col-6">
+            <form id="form1" class="form-inline">
+                <button id="but1" class="btn btn-primary my-2 my-sm-0" type="submit">Login</button>
+                <button id="but1" class="btn btn-light my-2 my-sm-0" type="submit">Sign up</button>
+                <button id="but2" class="btn btn-outline-light my-2 my-sm-0" type="submit">+ List a space</button>
+              </form>
+          </div>
+
+            <!-- ------- -->
+            <button id="but11" class="btn btn-primary my-2 my-lg-0" type="submit" >
+              Login
+            </button>
+            <button id="but11" class="btn btn-light my-2 my-lg-0" type="submit">
+              Sign up
+            </button>
+            <button id="button" class="navbar-toggler" type="button"  data-target="#item">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- ------- --> 
+
+            </nav>
+        <div id="second"  class="row">
+            <div id="header1" class="col-12">
+           <center> <span >
+                Find your perfect <b>coworking</b> space
+           </span></center></div>
+            <div id="mainparagraph" class="col-12">
+               
+                    <p>
+                        12,000+ coworking spaces with desks, offices & meeting 
+                        rooms in 165+ countries. <br>
+                        Discover and reserve space today.
+                    </p>
+               
+                </div>
+        </div>
+        <center>
+        <div id="form" class="row">
+                   
+                <div class="col-xl-5">
+                  <input id="input1" type="text" class="form-control" placeholder="Search location" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="col-xl-4">
+                  <input id="input1" type="date" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="col-xl-3">
+                        <button id="button2"  type="submit" class="btn btn-primary">Submit</button>
+                </div>
+        </div></center>
+       
+        <div id="tirth" class="row">
+          <div id="spacecounter"></div>
+          <div id="icons" class="col-lg-2 col-sm-5"> <center> <img  id="shape" src="image/clock.png"> <br> 24 Hr Access</center> </div>
+          <div id="icons" class="col-lg-2 col-sm-5"><center> <img  id="shape" src="image/speed.png"> <br>Fast Internet</center> </div>
+          <div id="icons" class="col-lg-2 col-sm-5"><center> <img  id="shape" src="image/human.png"><br>Good Coworkers</center> </div>
+          <div id="icons" class="col-lg-2 col-sm-5"><center> <img  id="shape" src="image/building.png"> <br>Modern Building</center> </div>
+        </div>
+        
+        <div id="fourth" class="row">
+          <div id="fourParag2" class="col-lg-3">
+              Explore our 
+               <b>available</b>
+              office spaces.
+          </div>
+          <div id="fourParag" class="col-lg-3">
+              Coworking is not only about the physical place,
+               but about establishing the coworking community first. 
+               Its benefits can already be experienced outside of its places, 
+               and it is recommended
+
+              To start with building a coworking community first 
+              before considering opening a Coworking place.
+          </div>
+          <div id="fourParag" class="col-lg-3">
+              However, some coworking places don’t build a community: 
+              they just get a part of an existing one by combining their 
+              opening with
+
+              An event which attracts their target group. 
+              Real-estate centric coworking spaces are about selling desks first,
+               with building community as a secondary goal.
+          </div>
+        </div>
+        
+        <div id="fiveth" class="row  shadow p-3 mb-5 rounded">
+          <div id="level" class="col-12">
+              <div id="space">
+                <div> Space occupancy level</div>
+                <div>
+                  85%
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <div id="progres" class="progress-bar wow fadeInLeftBig" data-wow-delay="-1s" data-wow-duration="3s" role="progressbar" style="width: 85%;"  aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="row" id="textBelow">
+                  <div class="col-md-8">
+                     <h1> Book your tour experience today!</h1>
+                      Schedule a tour, make an appointment to rent space
+                      at Themesberg, or ask for more information.
+                  </div>
+                  <div id="buttonLevel" class="col-md-4">
+                      <button class="btn btn-primary" type="submit">schedule a tour</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="sixthMain" class="row">
+          <div id="sixth" class="col-10">
+            Top Cities
+          </div>
+        </div>
+        <div id="seventh" class="row">
+          <div id="colimage" class="col-lg-2 col-sm-5"> <figure><img src="image/paris.jpg" alt=""></figure></div>
+          <div id="colimage" class="col-lg-2 col-sm-5"> <figure><img  src="image/london.jpg" alt=""></figure> </div>
+          <div id="colimage" class="col-lg-2 col-sm-5"> <figure><img src="image/tokio.jpg" alt=""></figure> </div>
+          <div id="colimage" class="col-lg-2 col-sm-5"> <figure><img src="image/new yorrk.jpg" alt=""></figure> </div>
+        </div>
+      
+        <div id="trending" class="row">
+          <div class="col-12"> Trending Space </div>
+        </div>
+
+          <div id="eightth" class="row">
+          <div id="cards" class="col-lg-4 col-md-6 col-sm-12 ">
+            <div class="card shadow">
+              <img src="image/img24.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Collaborative Workspace</h5>
+                <p class="card-text"><i class="fas fa-map-marker-alt"> New york, Manhattan, USA </i></p>
+                <div class="row">
+                <div class="col-8"> 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div id="number"  class="col-2">5</div>
+              </div> 
+              <table> 
+                <tr>
+                  <td> Hourle</td>
+                  <td>People</td>
+                  <td> Sq.Ft</td>
+                </tr>
+                <tr>
+                  <th >100$</th>
+                  <th>2-20</th>
+                  <th >200</th>
+                </tr>
+              </table>
+              </div>
+              </div>
+            </div>
+          
+          <div id="cards" class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card shadow">
+              <img src="image/img25.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Coworking Workspace</h5>
+                <p class="card-text"><i class="fas fa-map-marker-alt"> Bucharest, Sector 2, Romania </i></p>
+                <div class="row">
+                <div class="col-8"> 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div id="number"  class="col-2">3.0</div>
+              </div> 
+              <table> 
+                <tr>
+                  <td> Monthly</td>
+                  <td>People</td>
+                  <td> Sq.Ft</td>
+                </tr>
+                <tr>
+                  <th >200$</th>
+                  <th>24</th>
+                  <th >3000</th>
+                </tr>
+              </table>
+              </div>
+            </div>
+          </div>
+          <div id="cards" class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card shadow">
+              <img src="image/img26.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Meeting Office Space</h5>
+                <p class="card-text"><i class="fas fa-map-marker-alt"> London, Canary Wharf, UK </i></p>
+                <div class="row">
+                <div class="col-8"> 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div id="number"  class="col-2">4.0</div>
+              </div> 
+              <table> 
+                <tr>
+                  <td> Hourle</td>
+                  <td>People</td>
+                  <td> Sq.Ft</td>
+                </tr>
+                <tr>
+                  <th >50$</th>
+                  <th>3-5</th>
+                  <th >400</th>
+                </tr>
+              </table>
+              </div>
+            </div>
+          </div>
+          <div id="cards" class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card shadow">
+              <img src="image/img27.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Conferance Room</h5>
+                <p class="card-text"><i class="fas fa-map-marker-alt"> Paris, La Defense, france </i></p>
+                <div class="row">
+                <div class="col-8"> 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <div id="number"  class="col-2">4.7</div>
+              </div> 
+              <table> 
+                <tr>
+                  <td> Hourle</td>
+                  <td>People</td>
+                  <td> Sq.Ft</td>
+                </tr>
+                <tr>
+                  <th >100$</th>
+                  <th>2-20</th>
+                  <th >200</th>
+                </tr>
+              </table>
+              </div>
+            </div>
+          </div>
+          <div id="cards" class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card shadow" >
+              <img id="imagecard" src="image/img30.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Lifestyle Space</h5>
+                <p class="card-text"><i class="fas fa-map-marker-alt"> Madrid, Hortaleza, Spain </i></p>
+                <div class="row">
+                <div class="col-8"> 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <div id="number"  class="col-2">5.0</div>
+              </div> 
+              <table> 
+                <tr>
+                  <td> Daily</td>
+                  <td>People</td>
+                  <td> Sq.Ft</td>
+                </tr>
+                <tr>
+                  <th >350$</th>
+                  <th>10-25</th>
+                  <th >100</th>
+                </tr>
+              </table>
+              </div>
+            </div>
+          </div>
+          <div id="cards" class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card shadow">
+              <img src="image/img29.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Private Space</h5>
+                <p class="card-text"><i class="fas fa-map-marker-alt"> Budapest, Ferencvaros, Hangary </i></p>
+                <div class="row">
+                <div class="col-8"> 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div id="number"  class="col-2">4.0</div>
+              </div> 
+              <table> 
+                <tr>
+                  <td> Monthly</td>
+                  <td>People</td>
+                  <td> Sq.Ft</td>
+                </tr>
+                <tr>
+                  <th >100$</th>
+                  <th>1</th>
+                  <th >10</th>
+                </tr>
+              </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div id="nineth" class="row">
+        <div id="ninebutt" class="col-12"><button type="button" class="btn btn-primary">Browse All</button></div>
+        <div id="nineparag" class="col-12">142 spaces in 6 countries</div>
+      </div>
+      <div id="tenth" class="row">
+        <div id="tenone"  class="col-12">
+        <h1>Are you ready for Spaces?</h1>
+        <p> Check out our offers:</p>
+        </div>
+        <div class="col-9">
+          <table id="tentable">
+            <tr>
+              <td> Features</td>
+              <td> Standard License</td>
+              <td> Extended License</td>
+            </tr>
+            <tr style="background-color: rgb(238, 238, 255);">
+              <td> Create single websites for clinet</td>
+              <td><i class="fas fa-check" style="color: green;"></i></td>
+              <td><i class="fas fa-check" style="color: green;"></i></td>
+            </tr>
+            <tr>
+              <td>Creat single personal website</td>
+              <td><i class="fas fa-check" style="color: green;"></i></td>
+              <td><i class="fas fa-check" style="color: green;"></i></td>
+            </tr>
+            <tr style="background-color: rgb(238, 238, 255);">
+              <td>6 months support included</td>
+              <td><i class="fas fa-check" style="color: green;"></i></td>
+              <td><i class="fas fa-times" style="color: red;"></i></td>
+            </tr>
+            <tr>
+              <td>Creat multiple persional websites</td>
+              <td><i class="fas fa-times" style="color: red;"></i></td>
+              <td><i class="fas fa-check" style="color: green;"></i></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="eleventh" class="row">
+        <div id="eleven" class="row">
+        <div class="col-lg-3 col-md-12 col-md-12">
+        <div id="eleven1" class="col-12">
+           <h1> spaces</h1> 
+        </div>
+        <div id="eleven2" class="col-12">
+          <p>For those seeking the finest in services and technology in a 
+            downtown business center, without the high cost.
+          </p>
+        </div>
+        <div id="eleven3" class="col-12">
+          <a href="#" data-toggle="popover"  data-trigger="hover" data-content="Follow us on Twitter" data-placement="Top"> <i class="fab fa-twitter"></i></a>
+         <a href="#" data-toggle="popover"  data-trigger="hover" data-content="Follow us on Twitter" data-placement="Top"> <i class="fab fa-facebook"></i></a> 
+         <a href="#" data-toggle="popover"  data-trigger="hover" data-content="Follow us on Twitter" data-placement="Top"> <i class="fab fa-github"></i></a> 
+         <a href="#" data-toggle="popover"  data-trigger="hover" data-content="Follow us on Twitter" data-placement="Top"> <i class="fab fa-dribbble"></i></a> 
+        </div>
+      </div>
+      <div id="eleven4" class="col-lg-3 col-md-6 col-sm-12">
+        <ul>
+         <li style="color: white !important;"><h5>About Us</h5></li>
+         <li><a href="#">Blog</a></li>
+         <li><a href="#">About Us</a></li>
+        <li>  <a href="#">Products</a></li>
+         <li><a href="#"> Contact Us</a></li>
+        </ul>
+      </div>
+      <div id="eleven5" class="col-lg-3 col-md-6 col-sm-12">
+        <ul>
+          <li style="color: white !important;"><h5>Market</h5></li>
+          <li> <a href="#">Sales FAQ </a></li>
+          <li> <a href="#">How to register</a></li>
+          <li> <a href="#">Products</a></li>
+          <li> <a href="#">Sell Goods</a></li>
+          <li><a href="#">Reseive payment</a></li>
+         <li><a href="#"> Sell Goods</a></li>
+        </ul>
+      </div>
+      
+      <div id="eleven6"  class="col-lg-3 col-md-12 col-sm-12">
+        <h5>Subscribe</h5>
+        <p>Join our mailing list. We write rarely, but only the best content.</p>
+      <input type="text" placeholder="Email Address" data-toggle="tooltip" title="Pleas fill out this field"><br>
+      <button>Subscribe</button>
+      <p>We’ll never share your details. See our <a href="#"> Privacy Policy</a> </p>
+      </div>
+    </div>
+    <div id="twoelve" class="col-12">
+      © 2019 Themesberg. All rights reserved.
+    </div>
+  </div>
+  </div>
+  
+     </div>
+</body>
+<script src="js/wow.min.js" ></script>
+<script src="js/javascript.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

@@ -1,0 +1,512 @@
+@media (min-width: 800px) {
+    #header1{
+        margin-top: 90px !important;
+        font-size:70px !important;
+    }
+    #mainparagraph{
+        font-size: 20px ;
+    }
+    #form{
+        padding:30px 20px 20px 20px !important;
+    }
+    #input1{
+        height: 50px !important;
+    }
+    #button2{
+        height: 50px !important;
+    }
+    #but11{
+        display: none !important
+    }
+    #button{
+        display: none !important;
+    }
+    #item{
+        display: block !important;
+    }
+    #second{
+        padding-top: 150px !important;
+    }
+    #forms{
+        display:block !important;
+    }
+    #fourParag{
+        font-size: 20px !important;
+    }
+    #textBelow div h1{
+        font-size: 30px !important;
+    }
+    #textBelow{
+        font-size: 20px !important;
+    }
+      #buttonLevel{
+        justify-content: flex-end !important;
+      }
+      #sixth{
+        font-size: 30px !important;
+    }
+    #sevenImaga{
+        width: 100% !important;
+    }
+    #trending{
+        font-size: 30px !important;
+    }
+  }
+
+  
+#window{
+    display: none;
+}
+#close{
+    float: right;
+    margin: 30px 20px 0px 0px;
+}
+  #windowNav{
+      background-color: white;
+  }
+  #brand2{
+      font-size: 30px;
+      margin: 10px 0px 80px 10px;
+     padding-bottom: 40px;
+  }
+  #windowList{
+      list-style-type: none;
+      margin-left: -20px;
+  }
+  #windowList li a{
+      color: teal;
+      font-size: 20px;
+      text-decoration: none;
+      
+  }
+  #item{
+    display: none;
+  }
+  #forms{
+    display: none;
+  }
+  #but11{
+      display: block;
+      margin-right: 10px;
+      font-size: 12px;
+  }
+  #button{
+      display: block;
+  }
+#main{
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+#but1{
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#home{
+    color: white;
+    
+}
+#but2{
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#but1:hover{
+    margin-top: -5px !important;
+}
+#but2:hover{
+    margin-top: -5px !important;
+}
+#but11:hover{
+    margin-top: -1px !important;
+}
+#button{
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#brand{
+    margin-left: 10px;
+    margin-top: 8px; 
+    margin-bottom: 10px;
+}
+#brand:first-letter{
+    font-size: 25px;
+    text-decoration: underline;
+}
+#item li{
+    margin-left: -15px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+#navbarDropdown{
+    color: white;
+}
+#form1{
+    float: right;
+    
+}
+#second{
+    background-image: url('../image/img23.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: auto;
+    height: 800px;
+    margin-top: -190px;
+    padding-top: 220px;
+    color: white;
+}
+
+#header1{
+    
+    text-align: center;
+    font-family: Microsoft Himalaya;
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    line-height: 50px;
+}
+#mainparagraph{
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 50%;
+    margin-top: -250px;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(182, 182, 182);
+}
+#form{
+    background-color: white;
+    width: 80%;
+    padding:20px 9px 9px 9px;
+    border-radius: 15px;
+    margin-top: -400px;
+    border-radius: 0px;
+}
+#input1{
+    margin-bottom: 20px;
+    border-radius: 0px;
+    height: 30px;
+}
+#button2{
+    width: 100%;
+    height: 30px;
+    border-radius: 0px;
+}
+#buttright{
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    border: none;
+}
+  #tirth{
+    display: flex;
+    justify-content: center;
+      margin-top: 370px;
+  }
+  #shape{
+      width: 90px;
+      margin-bottom: 15px;
+  }
+  #icons{
+     margin-bottom: 45px;
+     display: flex;
+     justify-content: center;
+  }
+  #fourth{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+  #fourParag{
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      padding:0px 40px 0px 20px;
+      font-size: 15px;
+      color: rgb(51, 51, 131);
+  }
+  #fourParag2{
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding:0px 40px 0px 20px;
+    font-size: 72px; 
+    line-height: 60px;
+    font-family: Microsoft Himalaya;
+  }
+  #fiveth{
+      width: 80%;
+      box-shadow: rgb(75, 132, 134);
+      border: rgb(199, 199, 207) solid 1px;
+      margin: auto;
+  }
+  #level{
+      padding: 40px 30px 40px 30px;
+  }
+  #space{
+      font-size: 18px;
+      padding-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+  }
+  #textBelow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    font-size: 15px;
+  }
+  #textBelow div h1{
+      font-size: 20px;
+  }
+  #buttonLevel{
+     margin: auto;
+     padding-top: 30px;
+     display: flex;
+     justify-content: center;
+  }
+  
+  #sixthMain{
+    display: flex;
+    justify-content: center;
+    
+  }
+  #sixth{
+      font-size: 20px;
+      padding: 60px 0px 80px 15px;
+  }
+  #seventh{
+      display: flex;
+      justify-content: center;
+  }
+  figure {
+	background: rgb(0, 0, 0);
+    overflow: hidden;
+    height: 92%;
+  }
+  #colimage Img{
+      width: 100%;
+      height: 100%;
+      margin-bottom: 15px;
+      opacity: 0.6;
+      transition-duration: 0.5s;
+      transition-delay: -0.1s;
+  }
+  #colimage Img:hover{
+    opacity: 1;
+    transition-duration: 0.5s;
+    transform: scale(1.15);
+    transition-delay: -0.1s;
+    overflow: hidden;
+  }
+  #colimage{
+    overflow: hidden;
+    display: flex;
+      justify-content: center;
+  }
+  #trending{
+      margin: auto;
+      width: 85%;
+      margin-top: 90px;
+      font-size: 25px;
+  }
+  #eightth{
+      display: flex;
+      justify-content: center;
+      width: 85%;
+      margin: auto;
+      margin-top: 40px;
+      padding-bottom: 25px;
+  }
+  #cards{
+    display: flex;
+      justify-content: center;
+      margin-bottom: 18px;
+      transition-duration: 0.5s;
+     
+  } 
+  #cards:hover{
+      margin-top: -8px;
+      transition-duration: 0.5s;
+  }
+  #imagecard {
+      width: 100%;
+  } 
+  #number{
+    background-color: rgb(3, 102, 64); 
+    color: white; 
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding-top: 3px;
+  }
+  table{
+      margin-top: 25px;
+  }
+  table tr td{
+      color: rgb(107, 107, 107);
+     font-size: 15px; 
+     width: 45%;
+
+  }
+  table tr th{
+   width: 45%;
+    font-size: 15px;
+  }
+  #nineth{
+      padding-top: 35px;
+      padding-bottom: 45px;
+      display: flex;
+      justify-items: center;
+      background-color: rgb(240, 242, 255);
+  }
+  #ninebutt{
+    display: flex;
+    justify-content: center;
+  }
+  #ninebutt button{
+    border-radius: 0px;
+    font-size: 19px;
+    background-color: rgb(18, 18, 175);
+    padding: 8px 15px 8px 15px;
+  }
+  #nineparag{
+    padding-top: 12px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center; 
+  }
+  #tenth{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+      margin-top: 100px;
+  }
+  #tenone{
+      
+      margin-bottom: 30px;
+  }
+  #tenone h1{
+      display: flex;
+      justify-content: center;
+  }
+  #tenone p{
+    display: flex;
+    justify-content: center;
+}
+#tentable{
+    border-top: 1px solid rgb(204, 204, 204);
+    
+}
+#tentable tr td{
+    padding: 20px 15px 20px 15px;
+    font-size: 18px;
+}
+#eleventh{
+background-color: rgb(46, 43, 61);
+color: white;
+
+}
+#eleven{
+    
+    width: 80%;
+    margin: auto;
+}
+#eleven1{
+   margin-top: 70px;
+    font-size: 25px;
+}
+#eleven1 h1:first-letter{
+    font-size: 55px;
+    text-decoration: underline;
+}
+#eleven2{
+    color: rgb(99, 102, 136);
+    margin-bottom: 30px;
+}
+#eleven3 a i{
+    color: white;
+    margin-right: 10px;
+}
+#eleven4{
+    margin-top: 80px;
+}
+#eleven4 ul{
+    list-style-type: none;
+}
+#eleven4 ul a{
+    color:rgb(99, 102, 136);
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+#eleven4 ul li{
+    padding: 0px 0px 10px 0px;
+}
+#eleven5 ul a:hover{
+    color: white;
+    transition-duration: 0.3s;
+}
+#eleven5{
+    margin-top: 80px;
+}
+#eleven5 ul{
+    list-style-type: none;
+}
+#eleven5 ul a {
+    color:rgb(99, 102, 136);
+    padding: 0px 0px 10px 0px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+#eleven4 ul a:hover{
+    color: white;
+    transition-duration: 0.3s;
+}
+#eleven5 ul li{
+    padding: 0px 0px 10px 0px;
+}
+#eleven6{
+    margin-top: 70px;
+}
+#eleven6 p{
+    margin-top: 10px;
+    color:rgb(99, 102, 136);
+}
+#eleven6 p a{
+    color:rgb(209, 211, 238);
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+#eleven6 p a:hover{
+    opacity: 0.5;
+    transition-duration: 0.3s;
+}
+#eleven6 input{
+    font-size: 15px;
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+#eleven6 button{
+    background-color: rgb(59, 122, 101);
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    
+}
+#twoelve{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 100px;
+    color:rgb(194, 197, 235);
+    font-size: 15px;
+}
