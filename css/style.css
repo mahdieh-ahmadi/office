@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    
 }
 html{
     padding: 0;
@@ -389,11 +390,19 @@ html{
     justify-content: center;
 }
 #tentable{
+    width: 100%;
     border-top: 1px solid rgb(204, 204, 204);
     
 }
+#tentable tr{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 #tentable tr td{
-    padding: 20px 15px 20px 15px;
+    padding: 20px 10px 20px 10px;
     font-size: 18px;
 }
 #eleventh{
