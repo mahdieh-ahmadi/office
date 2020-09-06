@@ -1,59 +1,12 @@
-@media (min-width: 800px) {
-    #header1{
-        margin-top: 90px !important;
-        font-size:70px !important;
-    }
-    #mainparagraph{
-        font-size: 20px ;
-    }
-    #form{
-        padding:30px 20px 20px 20px !important;
-    }
-    #input1{
-        height: 50px !important;
-    }
-    #button2{
-        height: 50px !important;
-    }
-    #but11{
-        display: none !important
-    }
-    #button{
-        display: none !important;
-    }
-    #item{
-        display: block !important;
-    }
-    #second{
-        padding-top: 150px !important;
-    }
-    #forms{
-        display:block !important;
-    }
-    #fourParag{
-        font-size: 20px !important;
-    }
-    #textBelow div h1{
-        font-size: 30px !important;
-    }
-    #textBelow{
-        font-size: 20px !important;
-    }
-      #buttonLevel{
-        justify-content: flex-end !important;
-      }
-      #sixth{
-        font-size: 30px !important;
-    }
-    #sevenImaga{
-        width: 100% !important;
-    }
-    #trending{
-        font-size: 30px !important;
-    }
-  }
+body{
+    padding: 0;
+    margin: 0;
+}
+html{
+    padding: 0;
+    width: 100%;
+}
 
-  
 #window{
     display: none;
 }
@@ -82,6 +35,9 @@
   #item{
     display: none;
   }
+  .nav-item {
+    margin: 12px 0;
+}
   #forms{
     display: none;
   }
@@ -108,6 +64,7 @@
     margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    outline:none
 }
 #home{
     color: white;
@@ -117,6 +74,7 @@
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    outline: none;
 }
 #but1:hover{
     margin-top: -5px !important;
@@ -141,6 +99,10 @@
     font-size: 25px;
     text-decoration: underline;
 }
+#container{
+    width: 100%;
+    padding: 0;
+}
 #item li{
     margin-left: -15px;
     font-size: 15px;
@@ -157,18 +119,22 @@
 }
 #second{
     background-image: url('../image/img23.jpg');
-    background-size: 100%;
+    background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: auto;
-    height: 800px;
-    margin-top: -190px;
-    padding-top: 220px;
+    height: 90vh;
+    width: 100%;
+    margin-top: -90px;
+    padding-top: 90px;
     color: white;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #header1{
-    
     text-align: center;
     font-family: Microsoft Himalaya;
     font-size: 40px;
@@ -178,9 +144,8 @@
 }
 #mainparagraph{
     padding-top: 0px;
-    margin-top: 0px;
-    width: 50%;
-    margin-top: -250px;
+    margin-top: -60px;
+    width: 85%;
     text-align: center;
     line-height: 30px;
     color: rgb(182, 182, 182);
@@ -190,7 +155,6 @@
     width: 80%;
     padding:20px 9px 9px 9px;
     border-radius: 15px;
-    margin-top: -400px;
     border-radius: 0px;
 }
 #input1{
@@ -205,42 +169,60 @@
 }
 #buttright{
     background-color: rgba(0, 0, 0, 0);
-    color: black;
+    color: rgb(75, 132, 134);
+    font-size:18px;
     border: none;
 }
   #tirth{
     display: flex;
+    width:100%;
     justify-content: center;
-      margin-top: 370px;
+      margin-top: 300px;
+      margin-bottom: 100px;
   }
   #shape{
       width: 90px;
       margin-bottom: 15px;
   }
   #icons{
-     margin-bottom: 45px;
+     margin:0 30px 45px 30px;
      display: flex;
      justify-content: center;
+     font-weight: 600;
   }
   #fourth{
     display: flex;
+    width: 100%;
     justify-content: center;
     margin-bottom: 80px;
+    position: relative;
+  }
+  #fourth p{
+      height: 100%;
+    
   }
   #fourParag{
+      position: relative;
       margin-bottom: 20px;
       box-sizing: border-box;
-      padding:0px 40px 0px 20px;
+      padding:0px 20px 0px 40px;
       font-size: 15px;
       color: rgb(51, 51, 131);
+      text-align: justify;
+      font-weight: 350;
+      box-sizing: border-box;
   }
   #fourParag2{
     margin-bottom: 20px;
     box-sizing: border-box;
-    padding:0px 40px 0px 20px;
+    padding:0px 40px 0px 40px;
     font-size: 72px; 
     line-height: 60px;
     font-family: Microsoft Himalaya;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
   #fiveth{
       width: 80%;
@@ -285,6 +267,7 @@
   #seventh{
       display: flex;
       justify-content: center;
+      padding: 0 20px;
   }
   figure {
 	background: rgb(0, 0, 0);
@@ -309,7 +292,7 @@
   #colimage{
     overflow: hidden;
     display: flex;
-      justify-content: center;
+    justify-content: center;
   }
   #trending{
       margin: auto;
@@ -327,9 +310,9 @@
   }
   #cards{
     display: flex;
-      justify-content: center;
-      margin-bottom: 18px;
-      transition-duration: 0.5s;
+    justify-content: center;
+    margin-bottom: 18px;
+    transition-duration: 0.5s;
      
   } 
   #cards:hover{
@@ -338,6 +321,8 @@
   }
   #imagecard {
       width: 100%;
+      height: 50%;
+      object-fit: cover;
   } 
   #number{
     background-color: rgb(3, 102, 64); 
@@ -362,6 +347,7 @@
     font-size: 15px;
   }
   #nineth{
+      width: 100%;
       padding-top: 35px;
       padding-bottom: 45px;
       display: flex;
@@ -411,12 +397,10 @@
     font-size: 18px;
 }
 #eleventh{
-background-color: rgb(46, 43, 61);
-color: white;
-
+    background-color: rgb(46, 43, 61);
+    color: white;
 }
 #eleven{
-    
     width: 80%;
     margin: auto;
 }
@@ -510,3 +494,95 @@ color: white;
     color:rgb(194, 197, 235);
     font-size: 15px;
 }
+
+@media (min-width: 800px) {
+    #header1{
+        padding-top: 10px ;
+        font-size:70px ;
+    }
+    #mainparagraph{
+        font-size: 20px ;
+        margin-top: -20px;
+    }
+    #form{
+        padding:30px 20px 20px 20px ;
+    }
+    #seventh{
+        padding: 0 60px;
+    }
+    #button2{
+        height: 50px ;
+    }
+    #buttright{
+        color: black;
+        font-size:15px ;
+        padding-left: 16px;
+        border: none;
+    }
+    #but11{
+        display: none 
+    }
+    #button{
+        display: none ;
+    }
+    #item{
+        display: block ;
+    }
+    #forms{
+        display:block ;
+    }
+    #fourParag{
+        font-size: 20px ;
+    }
+    #textBelow div h1{
+        font-size: 30px ;
+    }
+    #textBelow{
+        font-size: 20px ;
+    }
+    #buttonLevel{
+        justify-content: flex-end ;
+    }
+    #sixth{
+        font-size: 30px ;
+    }
+    #sevenImaga{
+        width: 100% ;
+    }
+    #trending{
+        font-size: 30px ;
+    }
+  }
+
+  @media (max-width: 600px) {
+    #but11{
+        padding: 5px;
+        font-size: 12px;
+    }
+    #button{
+        padding: 5px;
+        margin-right: 25px;
+    }
+
+    #brand{
+        font-size: 15px;
+    }
+    #navbar{
+        padding-right: 0px;
+    }
+    .td{
+        font-size: 12px!important;
+    }
+    #tenone h1{
+        font-size: 22px;
+    }
+    #header1{
+        padding:  7px 3px 0 3px;
+        font-size:35px ;
+        line-height: 30px;
+    }
+    #mainparagraph{
+        margin-top: -5px;
+        line-height: 25px;
+    }
+  }
